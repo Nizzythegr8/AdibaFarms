@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/styloo.css">
+    <link rel="stylesheet" href="./resources/css/queries.css">
+
     <link rel="stylesheet" href="./vendors/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
@@ -20,16 +22,24 @@
 
                 <ul>
                     <li><a href="/index.html" class="test"><span class="nav-icon"><i class="fas fa-home"></i></i></span> <span class="nav-text">Home</span></a></li>
-                    <li><a href="#consult" class="test"><span class="nav-icon"><i class="fas fa-user"></i></span> <span class="nav-text">About Us</span></a></li>
+                    <li><a href="/profile.html" class="test"><span class="nav-icon"><i class="fas fa-user"></i></span> <span class="nav-text">About Us</span></a></li>
                     <li><a href="" class="test"><span class="nav-icon"><i class="fas fa-hands-helping"></i></span> <span class="nav-text">Consultancy</span> </a></li>
-                    <li class="active"><a href="/products.html" class="test"><span class="nav-icon"><i class="fas fa-pepper-hot"></i></span><span class="nav-text">Our Products</span></a></li>
+                    <li id="active"><a href="/products.html" class="test"><span class="nav-icon"><i class="fas fa-pepper-hot"></i></span><span class="nav-text">Our Products</span></a></li>
                     <li><a href="#contact" class="test"><span class="nav-icon"><i class="fas fa-comments"></i></span> <span class="nav-text">Contact Us</span></a></li>
                     <li><a href="#contact" class="test"><span class="nav-icon"><i class="fas fa-blog"></i></span> <span class="nav-text">Blog</span></a></li>
                     <li><a href="#contact" class="test"><span class="nav-icon"><i class="fas fa-question-circle"></i></i></span> <span class="nav-text">FAQs</span></a></li>
                 </ul>
             </div>
+            <div class="toggle js--nav-icon"><i class="fas fa-bars"></i></div>
+
         </div>
         <div class="nov-text-box2">
             <h1>Our Products</h1>
         </div>
     </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+</body>
+
+</html>

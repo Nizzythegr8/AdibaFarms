@@ -1,0 +1,48 @@
+    @media only screen and (max-width: 2700px) {}
+    
+    @media only screen and (max-width: 2000px) {}
+    
+    @media only screen and (max-width: 1200px) {}
+    
+    @media only screen and (max-width: 1023px) {}
+    
+    @media only screen and (max-width: 800px) {
+        .mann {
+            display: none;
+            width: 80%;
+            transition: .5s ease-in-out;
+        }
+        .mann ul li a {
+            font-size: 120%;
+        }
+        .toggle {
+            display: block;
+        }
+        .about-text h2 {
+            font-weight: 400;
+            color: #555;
+        }
+        .about-textwrapper,
+        .con-features {
+            display: block;
+            width: 100%;
+            margin-right: 0%;
+        }
+        .c-box {
+            width: 60%;
+            margin: auto;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .mann {
+            display: none;
+            width: 80%;
+            transition: 0.5s ease;
+        }
+        .toggle {
+            display: block;
+        }
+    }
+    
+    @media only screen and (max-width: 200px) {}

@@ -26,20 +26,19 @@ $(document).ready(function() {
         offset: '50%'
     });
 
-    // /*MOBILE NAV*/
-    // $('.js--nav-icon').click(function() {
-    //     var nav = $('.js--main-nav')
-    //     var icon = $('.js--nav-icon i')
+    /*MOBILE NAV*/
+    $('.toggle i').click(function() {
+        var nav = $('.mann');
+        var icon = $('.toggle i');
 
-    //     nav.slideToggle(200);
-    //     if (icon.hasClass('ion-navicon-round')) {
-    //         icon.addClass('ion-close-round');
-    //         icon.removeClass('ion-navicon-round');
+        nav.slideToggle(200).addClass('trans');
+        if (icon.hasClass('fas fa-bars')) {
+            icon.removeClass("fas fa-bars").addClass("fas fa-times");
 
-    //     } else {
-    //         icon.addClass('ion-navicon-round');
-    //         icon.removeClass('ion-close-round');
-    //     }
-    // });
 
+        } else {
+            icon.removeClass("fas fa-times").addClass("fas fa-bars");
+
+        }
+    });
 });
