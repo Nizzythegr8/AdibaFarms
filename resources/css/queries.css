@@ -47,13 +47,13 @@
             transition: 0.5s ease;
         }
         .toggle {
-            background: linear-gradient(90deg, rgb(0, 0, 0, 0.4), rgba(22, 160, 132, 0.515));
+            background: linear-gradient(90deg, rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.6), rgba(22, 160, 132, 0.315));
             display: block;
             width: 100%;
             padding: 2%;
         }
         .toggle i {
-            font-size: 26px;
+            font-size: 30px;
             vertical-align: middle;
             text-align: right;
             width: 20%;
