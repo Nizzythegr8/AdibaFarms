@@ -10,31 +10,37 @@
         .mann {
             display: none;
             width: 80%;
+            background-color: rgb(0, 0, 0, 0.955);
             transition: .5s ease-in-out;
         }
         .mann ul li a {
-            font-size: 70%;
+            font-size: 80%;
         }
         .toggle {
             display: block;
         }
         .about-text h2 {
-            font-weight: 400;
+            font-weight: 300;
+            font-size: 150%;
             color: #555;
         }
         .about-textwrapper,
         .con-features {
             display: block;
             width: 100%;
+            margin-top: 20%;
             margin-right: 0%;
         }
         .c-box {
-            width: 60%;
+            width: 85%;
             margin: auto;
         }
     }
     
     @media only screen and (max-width: 500px) {
+        h1 {
+            font-size: 250%;
+        }
         .mann {
             display: none;
             width: 80%;
@@ -42,6 +48,18 @@
         }
         .toggle {
             display: block;
+            width: 100%;
+            padding: 2%;
+        }
+        .toggle i {
+            font-size: 23px;
+            vertical-align: middle;
+            text-align: right;
+            width: 20%;
+        }
+        .about {
+            margin-top: 10%;
+            background-color: rgb(248, 248, 248);
         }
     }
     

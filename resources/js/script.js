@@ -31,7 +31,7 @@ $(document).ready(function() {
         var nav = $('.mann');
         var icon = $('.toggle i');
 
-        nav.slideToggle(200).addClass('trans');
+        nav.slideToggle(200);
         if (icon.hasClass('fas fa-bars')) {
             icon.removeClass("fas fa-bars").addClass("fas fa-times");
 
