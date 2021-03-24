@@ -39,7 +39,7 @@
     
     @media only screen and (max-width: 500px) {
         h1 {
-            font-size: 250%;
+            font-size: 260%;
         }
         .mann {
             display: none;
@@ -47,12 +47,13 @@
             transition: 0.5s ease;
         }
         .toggle {
+            background: linear-gradient(90deg, rgb(0, 0, 0, 0.4), rgba(22, 160, 132, 0.515));
             display: block;
             width: 100%;
             padding: 2%;
         }
         .toggle i {
-            font-size: 23px;
+            font-size: 26px;
             vertical-align: middle;
             text-align: right;
             width: 20%;
