@@ -7,6 +7,7 @@
     @media only screen and (max-width: 1023px) {}
     
     @media only screen and (max-width: 800px) {
+        /* NAVIGATION */
         .mann {
             display: none;
             width: 80%;
@@ -16,8 +17,29 @@
         .mann ul li a {
             font-size: 80%;
         }
+        h1 {
+            font-size: 260%;
+        }
+        .mann {
+            display: none;
+            width: 80%;
+            transition: 0.5s ease;
+        }
         .toggle {
+            background: linear-gradient(90deg, rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.3));
             display: block;
+            padding: 2%;
+        }
+        .toggle i {
+            font-size: 30px;
+            vertical-align: middle;
+            text-align: center;
+            width: 20%;
+        }
+        /* ABOUT PAGE */
+        .about {
+            margin-top: 10%;
+            background-color: rgb(248, 248, 248);
         }
         .about-text h2 {
             font-weight: 300;
@@ -35,6 +57,28 @@
             width: 85%;
             margin: auto;
         }
+        /* PRODUCTS PAGE */
+        .products {
+            padding: 5% 0;
+        }
+        .hhh-wrapper {
+            display: block;
+        }
+        .hhh {
+            width: 90%;
+            margin-left: 5%;
+            padding: 5% 0;
+            margin-top: 10%;
+        }
+        .hhh img {
+            width: 60%;
+            height: 200px;
+        }
+        .hhh p {
+            width: 95%;
+            margin-left: 2.5%;
+            margin-top: 10px;
+        }
     }
     
     @media only screen and (max-width: 500px) {
@@ -49,13 +93,11 @@
         .toggle {
             background: linear-gradient(90deg, rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.3));
             display: block;
-            width: 100%;
             padding: 2% 0;
         }
         .toggle i {
             font-size: 30px;
             vertical-align: middle;
-            text-align: right;
             width: 20%;
         }
         .about {
