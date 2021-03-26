@@ -47,10 +47,10 @@
             transition: 0.5s ease;
         }
         .toggle {
-            background: linear-gradient(90deg, rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.6), rgba(22, 160, 132, 0.315));
+            background: linear-gradient(90deg, rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.3));
             display: block;
             width: 100%;
-            padding: 2%;
+            padding: 2% 0;
         }
         .toggle i {
             font-size: 30px;
@@ -61,6 +61,39 @@
         .about {
             margin-top: 10%;
             background-color: rgb(248, 248, 248);
+        }
+        /* PRODUCTS PAGE */
+        .products {
+            padding: 10% 0;
+        }
+        .hhh-wrapper {
+            display: block;
+        }
+        .hhh {
+            width: 90%;
+            margin-left: 5%;
+            padding: 5% 0;
+            margin-top: 10%;
+        }
+        .hhh img {
+            width: 70%;
+            height: 200px;
+        }
+        .hhh h3 {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: 400;
+            font-size: 120%;
+            color: #777;
+        }
+        .hhh p {
+            width: 95%;
+            margin-left: 2.5%;
+            margin-top: 10px;
+            font-size: 110%;
+            line-height: 1.5em;
+            text-align: start;
+            color: #444;
         }
     }
     
