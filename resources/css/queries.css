@@ -1,154 +1,172 @@
-    @media only screen and (max-width: 2700px) {}
-    
-    @media only screen and (max-width: 2000px) {}
-    
-    @media only screen and (max-width: 1200px) {}
-    
-    @media only screen and (max-width: 1023px) {}
-    
-    @media only screen and (max-width: 800px) {
-        /* NAVIGATION */
-        .mann {
-            display: none;
-            width: 80%;
-            background-color: rgb(0, 0, 0, 0.955);
-            transition: .5s ease-in-out;
+@media only screen and (max-width: 2700px) {
+    /* html,
+        body {
+            font-size: 33px;
         }
         .mann ul li a {
-            font-size: 80%;
-            font-weight: 400;
-        }
-        h1 {
-            font-size: 260%;
-        }
-        .mann {
-            display: none;
-            width: 80%;
-            transition: 0.5s ease;
-        }
-        .toggle {
-            background: linear-gradient(90deg, rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.3));
-            display: block;
-            padding: 2%;
-        }
-        .toggle i {
-            font-size: 22px;
-            vertical-align: middle;
-            text-align: center;
-            width: 20%;
-        }
-        /* ABOUT PAGE */
-        .about {
-            margin-top: 10%;
-            background-color: rgb(248, 248, 248);
-        }
-        .about-text h2 {
-            font-weight: 300;
-            font-size: 150%;
-            color: #555;
-        }
-        .about-textwrapper,
-        .con-features {
-            display: block;
-            width: 100%;
-            margin-top: 20%;
-            margin-right: 0%;
-        }
-        .c-box {
-            width: 80%;
-            margin: auto;
-            margin-top: 10%;
-        }
-        /* PRODUCTS PAGE */
-        .products {
-            padding: 5% 0;
-        }
-        .hhh-wrapper {
-            display: block;
-        }
-        .hhh {
-            width: 90%;
-            margin-left: 5%;
-            padding: 5% 0;
-            margin-top: 10%;
-        }
-        .hhh img {
-            width: 60%;
-            height: 200px;
-        }
-        .hhh p {
-            width: 95%;
-            margin-left: 2.5%;
-            margin-top: 10px;
-        }
-    }
-    
-    @media only screen and (max-width: 500px) {
-        h1 {
-            font-size: 260%;
-        }
-        .mann {
-            display: none;
-            width: 80%;
-            transition: 0.5s ease;
-        }
-        .toggle {
-            background: linear-gradient(90deg, rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.3));
-            display: block;
-            padding: 2% 0;
-        }
-        .toggle i {
-            font-size: 30px;
-            vertical-align: middle;
-            width: 20%;
-        }
-        /* ABOUT PAGE */
-        .about {
-            margin-top: 10%;
-            background-color: rgb(248, 248, 248);
-        }
-        .about-text {
-            width: 95%;
-            margin-left: 2.5%;
-        }
-        .about-text p {
-            text-align: center;
-            width: 95%;
-            margin-left: 2.5%;
-        }
-        /* PRODUCTS PAGE */
-        .products {
-            padding: 10% 0;
-        }
-        .hhh-wrapper {
-            display: block;
-        }
-        .hhh {
-            width: 90%;
-            margin-left: 5%;
-            padding: 5% 0;
-            margin-top: 10%;
-        }
-        .hhh img {
-            width: 70%;
-            height: 200px;
-        }
-        .hhh h3 {
-            text-align: center;
-            margin-top: 10px;
-            font-weight: 400;
             font-size: 120%;
-            color: #777;
-        }
-        .hhh p {
-            width: 95%;
-            margin-left: 2.5%;
-            margin-top: 10px;
-            font-size: 110%;
-            line-height: 1.5em;
-            text-align: start;
-            color: #444;
-        }
+            font-weight: 400;
+        } */
+}
+
+@media only screen and (max-width: 2000px) {}
+
+@media only screen and (max-width: 1500px) {
+    .mann {
+        width: 4%;
     }
-    
-    @media only screen and (max-width: 200px) {}
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (max-width: 800px) {
+    /* NAVIGATION */
+    .mann {
+        display: none;
+        width: 80%;
+        background-color: rgb(0, 0, 0, 0.955);
+        transition: .5s ease-in-out;
+    }
+    .mann ul li a {
+        font-size: 80%;
+        font-weight: 400;
+    }
+    h1 {
+        font-size: 260%;
+    }
+    .toggle {
+        background: linear-gradient(90deg, rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.3));
+        display: block;
+        padding: 2%;
+    }
+    .toggle i {
+        font-size: 140%;
+        vertical-align: middle;
+        text-align: center;
+        width: 20%;
+    }
+    /* ABOUT PAGE */
+    .about {
+        margin-top: 10%;
+        background-color: rgb(248, 248, 248);
+    }
+    .about-text h2 {
+        font-weight: 300;
+        font-size: 150%;
+        color: #555;
+    }
+    .about-textwrapper,
+    .con-features {
+        display: block;
+        width: 100%;
+        margin-top: 20%;
+        margin-right: 0%;
+    }
+    .c-box {
+        width: 80%;
+        margin: auto;
+        margin-top: 10%;
+    }
+    /* PRODUCTS PAGE */
+    .products {
+        padding: 5% 0;
+    }
+    .hhh-wrapper {
+        display: block;
+    }
+    .hhh {
+        width: 90%;
+        margin-left: 5%;
+        padding: 5% 0;
+        margin-top: 10%;
+    }
+    .hhh img {
+        width: 60%;
+        height: 200px;
+    }
+    .hhh p {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* HEADER */
+    .text-box {
+        width: 90%;
+    }
+    .text-box h1 {
+        margin: 2% 0;
+    }
+    h1 {
+        font-size: 260%;
+    }
+    /* NAVIGATION */
+    .mann {
+        display: none;
+        width: 80%;
+        transition: 0.5s ease;
+    }
+    .toggle {
+        background: linear-gradient(90deg, rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.3));
+        display: block;
+        padding: 2% 0;
+    }
+    .toggle i {
+        font-size: 20px;
+        vertical-align: middle;
+        width: 20%;
+    }
+    /* ABOUT PAGE */
+    .about {
+        margin-top: 10%;
+        background-color: rgb(248, 248, 248);
+    }
+    .about-text {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .about-text p {
+        text-align: center;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    /* PRODUCTS PAGE */
+    .products {
+        padding: 10% 0;
+    }
+    .hhh-wrapper {
+        display: block;
+    }
+    .hhh {
+        width: 90%;
+        margin-left: 5%;
+        padding: 5% 0;
+        margin-top: 10%;
+    }
+    .hhh img {
+        width: 70%;
+        height: 200px;
+    }
+    .hhh h3 {
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 120%;
+        color: #777;
+    }
+    .hhh p {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 10px;
+        font-size: 110%;
+        line-height: 1.5em;
+        text-align: start;
+        color: #444;
+    }
+}
+
+@media only screen and (max-width: 200px) {}
