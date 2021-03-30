@@ -364,12 +364,18 @@ h3 {
 }
 
 .const-ft {
-    display: flex;
-    color: #777;
+    display: block;
 }
 
-.const-ft h2 {
-    font-size: 155%;
+.const-wr {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.const-wr img {
+    width: 30%;
+    height: 200px;
 }
 
 
